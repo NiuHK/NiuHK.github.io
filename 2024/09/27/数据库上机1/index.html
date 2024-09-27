@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>数据库上机1 - HK&#039;s Blog</title><meta name="robots" content="noindex"><link rel="manifest" href="/manifest.json"><meta name="theme-color" content=" hsl(30, 100%, 50%)"><meta name="application-name" content="Daniel Niu"><meta name="msapplication-TileImage" content="img/icon1.svg"><meta name="msapplication-TileColor" content=" hsl(30, 100%, 50%)"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Daniel Niu"><meta name="apple-mobile-web-app-status-bar-style" content="default"><link rel="apple-touch-icon" sizes="72x72" href="img/icon1.svg"><link rel="apple-touch-icon" sizes="96x96" href="img/icon1.svg"><link rel="apple-touch-icon" sizes="128x128" href="img/icon1.svg"><link rel="apple-touch-icon" sizes="256x256" href="img/icon1.svg"><meta name="description" content="数据库上机报告"><meta property="og:type" content="article"><meta property="og:title" content="数据库上机1"><meta property="og:url" content="http://blog.212676.xyz/2024/09/27/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8A%E6%9C%BA1/"><meta property="og:site_name" content="HK&#039;s Blog"><meta property="og:description" content="数据库上机报告"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271843575.png"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271844763.png"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271844843.png"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271845870.png"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271845818.png"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271846575.png"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271846086.png"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271846936.png"><meta property="article:published_time" content="2024-09-27T10:39:00.000Z"><meta property="article:modified_time" content="2024-09-27T10:50:00.021Z"><meta property="article:author" content="Daniel Niu"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271843575.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://blog.212676.xyz/2024/09/27/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8A%E6%9C%BA1/"},"headline":"数据库上机1","image":["https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271843575.png","https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271844763.png","https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271844843.png","https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271845870.png","https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271845818.png","https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271846575.png","https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271846086.png","https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271846936.png"],"datePublished":"2024-09-27T10:39:00.000Z","dateModified":"2024-09-27T10:50:00.021Z","author":{"@type":"Person","name":"Daniel Niu"},"publisher":{"@type":"Organization","name":"HK's Blog","logo":{"@type":"ImageObject","url":"http://blog.212676.xyz/2024/09/27/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8A%E6%9C%BA1/img/icon1.svg"}},"description":"数据库上机报告"}</script><link rel="canonical" href="http://blog.212676.xyz/2024/09/27/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8A%E6%9C%BA1/"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.1.1"><link rel="alternate" href="/atom.xml" title="HK's Blog" type="application/atom+xml">
+</head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/icon1.svg" alt="HK&#039;s Blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/AboutMe">About</a></div><div class="navbar-end"><a class="navbar-item is-hidden-tablet catalogue" title="Catalogue" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-9-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2024-09-27T10:39:00.000Z" title="9/27/2024, 10:39:00 AM">2024-09-27</time></span><span class="level-item"><a class="link-muted" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8A%E6%9C%BA%E8%AE%B0%E5%BD%95/">数据库上机记录</a></span></div></div><h1 class="title is-3 is-size-4-mobile">数据库上机1</h1><div class="content"><blockquote>
+<p>数据库上机报告</p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="实验一-表的定义"><a href="#实验一-表的定义" class="headerlink" title="实验一 表的定义"></a>实验一 表的定义</h1><h2 id="实验目标"><a href="#实验目标" class="headerlink" title="实验目标"></a>实验目标</h2><ul>
+<li>创建一个包含完整性约束的表；</li>
+<li>确定表命名的规则；</li>
+<li>描述可以使用的数据类型；</li>
+<li>利用约束自动创建索引；</li>
+<li>利用其它表的数据行创建新表。</li>
+</ul>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="创建表格-student-info"><a href="#创建表格-student-info" class="headerlink" title="创建表格 student_info:"></a><strong>创建表格 <code>student_info</code>:</strong></h3><p>格式:  <code>&lt;column_name&gt; &lt;data_type&gt; &lt;constraint_type&gt;(可选)</code></p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> student_info (</span><br><span class="line">    student_id NUMBER(<span class="number">10</span>) <span class="keyword">PRIMARY</span> KEY,          <span class="comment">-- 学号，主键约束</span></span><br><span class="line">    name VARCHAR2(<span class="number">50</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span>,                 <span class="comment">-- 姓名，非空约束</span></span><br><span class="line">    phone_number VARCHAR2(<span class="number">20</span>) <span class="keyword">UNIQUE</span>,           <span class="comment">-- 电话，唯一约束</span></span><br><span class="line">    email VARCHAR2(<span class="number">100</span>) <span class="keyword">UNIQUE</span>,                 <span class="comment">-- 邮箱，唯一约束</span></span><br><span class="line">    enrollment_date <span class="type">DATE</span> <span class="keyword">DEFAULT</span> SYSDATE,       <span class="comment">-- 入学日期，默认当前日期</span></span><br><span class="line">    <span class="keyword">CONSTRAINT</span> chk_phone_number <span class="keyword">CHECK</span> (REGEXP_LIKE(phone_number, <span class="string">&#x27;^\d&#123;10,20&#125;$&#x27;</span>)) <span class="comment">-- 检查电话格式为10到20位数字</span></span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<p>创建含外键约束的表:</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> course_enrollment (</span><br><span class="line">    enrollment_id NUMBER(<span class="number">10</span>) <span class="keyword">PRIMARY</span> KEY,       <span class="comment">-- 注册 ID，主键</span></span><br><span class="line">    student_id NUMBER(<span class="number">10</span>),                       <span class="comment">-- 学号，外键</span></span><br><span class="line">    course_name VARCHAR2(<span class="number">100</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span>,         <span class="comment">-- 课程名称，非空约束</span></span><br><span class="line">    enrollment_date <span class="type">DATE</span> <span class="keyword">DEFAULT</span> SYSDATE,       <span class="comment">-- 注册日期，默认当前日期</span></span><br><span class="line">    <span class="keyword">CONSTRAINT</span> fk_student <span class="keyword">FOREIGN</span> KEY (student_id) <span class="keyword">REFERENCES</span> student_info(student_id)  <span class="comment">-- 外键约束</span></span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<p>查看当前表格:</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DESC</span> student_info</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271843575.png">外键约束的表:<img src="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271844763.png"><img src="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271844843.png"></p>
+<h3 id="确定命名规则"><a href="#确定命名规则" class="headerlink" title="确定命名规则:"></a><strong>确定命名规则:</strong></h3><ul>
+<li>以字母开始</li>
+<li>包含 1-30 个字符长</li>
+<li>Z, a–z, 0–9, _, $, #</li>
+<li>不能与本用户的其他对象同名</li>
+<li>不能是保留字</li>
+</ul>
+<h3 id="描述可以使用的数据类型"><a href="#描述可以使用的数据类型" class="headerlink" title="描述可以使用的数据类型:"></a><strong>描述可以使用的数据类型:</strong></h3><p>   在创建表格时进行约束</p>
+<h3 id="利用约束自动创建索引"><a href="#利用约束自动创建索引" class="headerlink" title="利用约束自动创建索引"></a><strong>利用约束自动创建索引</strong></h3><ul>
+<li>在创建表的时候已经创建约束</li>
+<li>自动将唯一约束以及主键约束创建索引</li>
+<li>可自行创建索引:<code>CREATE INDEX &lt;索引名&gt; ON &lt;表名&gt;(&lt;列名&gt;);</code></li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271845870.png"></p>
+<h3 id="约束的语法"><a href="#约束的语法" class="headerlink" title="约束的语法"></a><strong>约束的语法</strong></h3><ul>
+<li>列级约束</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">column</span> [<span class="keyword">CONSTRAINT</span> constraint_name] constraint_type,</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>表级约束</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">column</span>,...</span><br><span class="line">[<span class="keyword">CONSTRAINT</span> constraint_name] constraint_type (<span class="keyword">column</span>, ...),</span><br></pre></td></tr></table></figure>
+
+<p>约束的类型</p>
+<ul>
+<li><p><strong>非空约束（NOT NULL）</strong></p>
+<ul>
+<li>强制某列不能为空</li>
+<li>不允许使用表达式</li>
+<li>是列级约束</li>
+</ul>
+</li>
+<li><p><strong>唯一键（UNIQUE KEY）</strong></p>
+<ul>
+<li>指明列或列组合的值唯一</li>
+<li>当单一列有唯一约束时，可以为空值</li>
+<li>可以定义为表级或列级约束</li>
+<li>系统会自动建立唯一性索引</li>
+</ul>
+</li>
+<li><p><strong>主键（PRIMARY KEY）</strong></p>
+<ul>
+<li>主键约束所表示的列值，其值是唯一识别表中的一条记录</li>
+<li>每个表都应该有一个主键，且只能有一个主键</li>
+<li>指定列值唯一</li>
+<li>主键不可以为空</li>
+<li>是表级或列级约束</li>
+<li>系统会自动建立唯一性索引</li>
+</ul>
+</li>
+<li><p><strong>外键（FOREIGN KEY）</strong></p>
+<ul>
+<li>外键用于连接包括相关信息的两个表，他们大多使用在父子关系中</li>
+<li>可以定义在单列或多列上</li>
+<li>会同本表或其他表的主键或唯一键建立连接关系</li>
+<li>是表级或列级约束</li>
+<li>插入值必须同父表匹配或为 NULL</li>
+<li>FOREIGN KEY：指明子表中的列</li>
+<li>REFERENCES：指明父级表及相关列</li>
+<li>ON DELETE CASCADE：允许父表中的删除操作，并且删除子表中的相关记录</li>
+</ul>
+<p>创建一个 <code>course_enrollment</code> 表，记录学生的课程注册信息，其中 <code>student_id</code> 列将作为外键引用 <code>student_info</code> 表中的 <code>student_id</code>。</p>
+<h4 id="创建-course-enrollment-表"><a href="#创建-course-enrollment-表" class="headerlink" title="创建 course_enrollment 表"></a>创建 <code>course_enrollment</code> 表</h4><p>以下是创建 <code>course_enrollment</code> 表的 SQL 语句示例：</p>
+</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> course_enrollment (</span><br><span class="line">      enrollment_id NUMBER(<span class="number">10</span>) <span class="keyword">PRIMARY</span> KEY,       <span class="comment">-- 注册 ID，主键</span></span><br><span class="line">      student_id NUMBER(<span class="number">10</span>),                       <span class="comment">-- 学号，外键</span></span><br><span class="line">      course_name VARCHAR2(<span class="number">100</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span>,         <span class="comment">-- 课程名称，非空约束</span></span><br><span class="line">      enrollment_date <span class="type">DATE</span> <span class="keyword">DEFAULT</span> SYSDATE,       <span class="comment">-- 注册日期，默认当前日期</span></span><br><span class="line">      <span class="keyword">CONSTRAINT</span> fk_student <span class="keyword">FOREIGN</span> KEY (student_id) <span class="keyword">REFERENCES</span> student_info(student_id)  <span class="comment">-- 外键约束</span></span><br><span class="line">  );</span><br></pre></td></tr></table></figure>
+
+<h4 id="说明："><a href="#说明：" class="headerlink" title="说明："></a>说明：</h4><ol>
+<li><strong><code>enrollment_id</code></strong> ：主键，唯一标识每条课程注册记录。</li>
+<li><strong><code>student_id</code></strong> ：外键，引用 <code>student_info</code> 表中的 <code>student_id</code>，确保每条课程注册记录都对应一个有效的学生。</li>
+<li><strong><code>course_name</code></strong> ：课程名称，使用 <code>VARCHAR2</code> 类型并设置为非空。</li>
+<li><strong><code>enrollment_date</code></strong> ：注册日期，默认设置为当前日期。</li>
+<li><strong>外键约束</strong> ：通过 <code>CONSTRAINT fk_student FOREIGN KEY (student_id) REFERENCES student_info(student_id)</code> 来定义外键约束，确保 <code>course_enrollment</code> 表中的 <code>student_id</code> 必须在 <code>student_info</code> 表中存在。</li>
+</ol>
+<h4 id="示例插入数据"><a href="#示例插入数据" class="headerlink" title="示例插入数据"></a>示例插入数据</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">插入数据时，确保 `student_info` 表中有相应的 `student_id` 记录。以下是示例插入操作：</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 假设 student_info 表中已经有一条记录</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> student_info (student_id, name, phone_number, email)</span><br><span class="line"><span class="keyword">VALUES</span> (<span class="number">1</span>, <span class="string">&#x27;Alice&#x27;</span>, <span class="string">&#x27;1234567890&#x27;</span>, <span class="string">&#x27;alice@example.com&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 向 course_enrollment 表插入记录</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> course_enrollment (enrollment_id, student_id, course_name)</span><br><span class="line"><span class="keyword">VALUES</span> (<span class="number">1</span>, <span class="number">1</span>, <span class="string">&#x27;Database Systems&#x27;</span>);  <span class="comment">-- 这里的 student_id 为 1，必须存在于 student_info 表中</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="重要性"><a href="#重要性" class="headerlink" title="重要性"></a>重要性</h4><p>  外键约束确保数据的一致性和完整性，防止不合法的记录插入到 <code>course_enrollment</code> 表中。这意味着，只有在 <code>student_info</code> 表中存在的学生 ID 才能用于注册课程，从而维护数据的关联性。</p>
+<ul>
+<li><p><strong>CHECK(制定每条记录必须满足的条件)</strong></p>
+<ul>
+<li>不允许使用表达式</li>
+<li>参照伪列 CURRVAL, NEXTVAL, LEVEL, 或 ROWNUM</li>
+<li>调用 SYSDATE, UID, USER, 或 USERENV 函数</li>
+<li>与其它行中其它值有关的查询值</li>
+<li>是表级或列级约束</li>
+</ul>
+</li>
+</ul>
+<h3 id="使用子查询创建表"><a href="#使用子查询创建表" class="headerlink" title="使用子查询创建表"></a><strong>使用子查询创建表</strong></h3><p>   使用 CREATE TABLE 和 AS 子查询创建表并且插入记录</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="keyword">table</span> [ <span class="keyword">column</span>(, column...)] <span class="keyword">AS</span> sub<span class="operator">-</span>query;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>指定列应与子查询中的列相匹配</li>
+<li>为列定义了列名、缺省值和完整性约束<br>例：创建一个学生的联系方式表:</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> student_contact_info <span class="keyword">AS</span></span><br><span class="line"><span class="keyword">SELECT</span> student_id, name, phone_number</span><br><span class="line"><span class="keyword">FROM</span> student_info</span><br><span class="line"><span class="keyword">WHERE</span> phone_number <span class="keyword">IS</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span>;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271845818.png"></p>
+<h3 id="利用数据字典查看约束条件"><a href="#利用数据字典查看约束条件" class="headerlink" title="利用数据字典查看约束条件"></a>利用数据字典查看约束条件</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> constraint_name, constraint_type, status, search_condition</span><br><span class="line"><span class="keyword">FROM</span> user_constraints</span><br><span class="line"><span class="keyword">WHERE</span> table_name <span class="operator">=</span> <span class="string">&#x27;STUDENT_INFO&#x27;</span>;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271846575.png"></p>
+<h3 id="改变表中列的名字"><a href="#改变表中列的名字" class="headerlink" title="改变表中列的名字"></a>改变表中列的名字</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> student_info RENAME <span class="keyword">COLUMN</span> phone_number <span class="keyword">TO</span> contact_number;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271846086.png"></p>
+<h3 id="删除表中的列"><a href="#删除表中的列" class="headerlink" title="删除表中的列"></a>删除表中的列</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> student_info <span class="keyword">DROP</span> <span class="keyword">COLUMN</span> email;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/NiuHK/Picstorage2@main/imgs/202409271846936.png"></p>
+<h3 id="改变一个字段初始定义的-Check-范围"><a href="#改变一个字段初始定义的-Check-范围" class="headerlink" title="改变一个字段初始定义的 Check 范围"></a>改变一个字段初始定义的 Check 范围</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 删除旧的</span></span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> student_info <span class="keyword">DROP</span> <span class="keyword">CONSTRAINT</span> chk_phone_number;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 添加新的</span></span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> student_info </span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> student_info <span class="keyword">ADD</span> <span class="keyword">CONSTRAINT</span> chk_phone_number <span class="keyword">CHECK</span> (REGEXP_LIKE(contact_number, <span class="string">&#x27;^\d+$&#x27;</span>));</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<!-- flag of hidden posts --></div><div class="article-licensing box"><div class="licensing-title"><p>数据库上机1</p><p><a href="http://blog.212676.xyz/2024/09/27/数据库上机1/">http://blog.212676.xyz/2024/09/27/数据库上机1/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Daniel Niu</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2024-09-27</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2024-09-27</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><!--!--></article></div><!--!--><div class="card"><div class="card-content"><h3 class="title is-5">Comments</h3><div id="comment-container"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js"></script><script>var gitalk = new Gitalk({
+            id: "01cd2b3d9ef80ed1ec4c7ca2843bbfe4",
+            repo: "NiuHK.github.io",
+            owner: "NiuHK",
+            clientID: "033643d93760c7549ef5",
+            clientSecret: "b082f7d7117bbd41d66e0176376cd9b09bb36adb",
+            admin: ["NiuHK"],
+            createIssueManually: false,
+            distractionFreeMode: true,
+            perPage: 20,
+            pagerDirection: "last",
+            
+            
+            enableHotKey: true,
+            language: "zh-CN",
+        })
+        gitalk.render('comment-container')</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="/img/head.png" alt="Daniel Niu"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Daniel Niu</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1" style="color: hsl(30, 100%, 50%)"></i><span>CN</span><h2 class="hitokoto" id="yiyancon" style="color: #0a0a0a"></h2><script type="text/javascript" src="https://international.v1.hitokoto.cn?encode=js&amp;amp;charset=utf-8&amp;amp;&amp;amp;c=j&amp;amp;c=k&amp;amp;c=l"></script></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/archives"><p class="title">24</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/categories"><p class="title">3</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/tags"><p class="title">27</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/NiuHK" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/NiuHK"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://facebook.com"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Dribbble" href="https://dribbble.com"><i class="fab fa-dribbble"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/atom.xml"><i class="fas fa-rss"></i></a></div></div></div><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">Catalogue</h3><ul class="menu-list"><li><a class="level is-mobile" href="#实验一-表的定义"><span class="level-left"><span class="level-item">1</span><span class="level-item">实验一 表的定义</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#实验目标"><span class="level-left"><span class="level-item">1.1</span><span class="level-item">实验目标</span></span></a></li><li><a class="level is-mobile" href="#步骤"><span class="level-left"><span class="level-item">1.2</span><span class="level-item">步骤</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#创建表格-student-info"><span class="level-left"><span class="level-item">1.2.1</span><span class="level-item">创建表格 student_info:</span></span></a></li><li><a class="level is-mobile" href="#确定命名规则"><span class="level-left"><span class="level-item">1.2.2</span><span class="level-item">确定命名规则:</span></span></a></li><li><a class="level is-mobile" href="#描述可以使用的数据类型"><span class="level-left"><span class="level-item">1.2.3</span><span class="level-item">描述可以使用的数据类型:</span></span></a></li><li><a class="level is-mobile" href="#利用约束自动创建索引"><span class="level-left"><span class="level-item">1.2.4</span><span class="level-item">利用约束自动创建索引</span></span></a></li><li><a class="level is-mobile" href="#约束的语法"><span class="level-left"><span class="level-item">1.2.5</span><span class="level-item">约束的语法</span></span></a></li><li><a class="level is-mobile" href="#使用子查询创建表"><span class="level-left"><span class="level-item">1.2.6</span><span class="level-item">使用子查询创建表</span></span></a></li><li><a class="level is-mobile" href="#利用数据字典查看约束条件"><span class="level-left"><span class="level-item">1.2.7</span><span class="level-item">利用数据字典查看约束条件</span></span></a></li><li><a class="level is-mobile" href="#改变表中列的名字"><span class="level-left"><span class="level-item">1.2.8</span><span class="level-item">改变表中列的名字</span></span></a></li><li><a class="level is-mobile" href="#删除表中的列"><span class="level-left"><span class="level-item">1.2.9</span><span class="level-item">删除表中的列</span></span></a></li><li><a class="level is-mobile" href="#改变一个字段初始定义的-Check-范围"><span class="level-left"><span class="level-item">1.2.10</span><span class="level-item">改变一个字段初始定义的 Check 范围</span></span></a></li></ul></li></ul></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/icon1.svg" alt="HK&#039;s Blog" height="28"></a><p class="is-size-7"><span>&copy; 2024 Daniel Niu</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="uR6a-qQKdcarXij" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p></div></div></div></div></footer><script src="/js/custom.js" defer></script><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "This website uses cookies to improve your experience.",
+          dismiss: "Got it!",
+          allow: "Allow cookies",
+          deny: "Decline",
+          link: "Learn more",
+          policy: "Cookie Policy",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>
