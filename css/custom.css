@@ -1,3 +1,12 @@
+.same-height {
+  max-height: 5000px; /* 图片尽量紧密排列 */
+  width: auto; /* 自动调整宽度 */
+  object-fit: contain; /* 确保图片比例不变形 */
+  margin-right: 20px; /* 图片之间的间距 */
+}
+.same-height:last-child {
+  margin-right: 0; /* 最后一个图片去掉右边距 */
+}
 .is-3-column {
   background-image: url("/img/blogBackground.png");
   background-position: center center;
