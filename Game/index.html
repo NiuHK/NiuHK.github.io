@@ -18,6 +18,11 @@
       <span class="btn" @click="handleReset">重置</span>
       <span class="btn" @click="handleSwitch('prev')">上一关</span>
       <span class="btn" @click="handleSwitch('next')">下一关</span>
+      <div class="mediaControl">
+      <span class="btn":class="{ blinking: !canPlaying}" @click="handlePause">{{canPlaying ? '暂停音乐' :  '播放音乐' }}</span>
+      </div>
+      
+
       <p class="center">
         行: 
         <select v-model="config.row">
@@ -129,7 +134,9 @@
           cards: [],
           select: new Map(),
           containerInfo: null,
-          cardSlotInfo: null
+          cardSlotInfo: null,
+          canPlaying: false
+
         });
 
         /**
@@ -255,7 +262,16 @@
             }
           }
         }
-
+        const handlePause = () => {
+          if(data.canPlaying){
+            audio.pause();
+            data.canPlaying=false
+          }else{
+            audio.play();
+            data.canPlaying=true
+          }
+          
+        }        
         /**
          * 开始游戏
          */
@@ -264,7 +280,11 @@
             window.alert('游戏中');
             return;
           }
-          audio.play();
+
+          if(data.canPlaying)
+            audio.play();
+
+          
           init();
         }        
         
@@ -276,6 +296,7 @@
           data.cards.length = 0;
           data.select.clear();
           init();
+          if(data.canPlaying)
           audio.replay();
         }
 
@@ -409,6 +430,7 @@
           setAnimation,
           handleSwitch,
           handleReset,
+          handlePause,
           clickCard
         }
       }

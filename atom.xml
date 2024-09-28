@@ -375,10 +375,10 @@
   
   <entry>
     <title>使用github codespace + github page + hexo 无服务器发布运行个人博客</title>
-    <link href="http://blog.212676.xyz/2024/03/08/%E4%BD%BF%E7%94%A8github-codespace-github-page-hexo-%E7%BA%BF%E4%B8%8A%E7%BC%96%E8%BE%91%E5%8F%91%E5%B8%83%E8%BF%90%E8%A1%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://blog.212676.xyz/2024/03/08/%E4%BD%BF%E7%94%A8github-codespace-github-page-hexo-%E7%BA%BF%E4%B8%8A%E7%BC%96%E8%BE%91%E5%8F%91%E5%B8%83%E8%BF%90%E8%A1%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
-    <published>2024-03-08T19:14:43.000Z</published>
-    <updated>2024-04-02T05:12:10.000Z</updated>
+    <link href="http://blog.212676.xyz/2024/03/09/%E4%BD%BF%E7%94%A8github-codespace-github-page-hexo-%E7%BA%BF%E4%B8%8A%E7%BC%96%E8%BE%91%E5%8F%91%E5%B8%83%E8%BF%90%E8%A1%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://blog.212676.xyz/2024/03/09/%E4%BD%BF%E7%94%A8github-codespace-github-page-hexo-%E7%BA%BF%E4%B8%8A%E7%BC%96%E8%BE%91%E5%8F%91%E5%B8%83%E8%BF%90%E8%A1%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2024-03-09T03:14:43.000Z</published>
+    <updated>2024-09-28T09:10:33.845Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>hexo是一个可以github page 托管的静态页面博客框架，需要node.js进行编译发布，鉴于windows配置node.js的不变性，使用github codespace托管运行环境以及博客源码，进行无服务器博客运营。</p></blockquote><span id="more"></span><p>icarus 主题 整体颜色改变：<br>&#x2F;node_modules&#x2F;hexo-theme-icarus&#x2F;include&#x2F;style&#x2F;base.styl<br>l15 $primary ?&#x3D; hsl(30, 100%,  50%)</p><p><a href="http://zhaommmmomo.cn/2021/09/14/Icarus%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/">更改两栏布局下文章宽度</a></p><p><a href="https://hujiahao6.gitee.io/2020/04/02/hexo%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/">部分更改</a></p><p>调整背景透明度<br>themes\icarus\source\js\animation.js<br>L44</p><p><a href="https://blog.mchook.cn/2021/07/22/icarus%E4%B8%BB%E9%A2%98%E8%87%AA%E5%AE%9A%E4%B9%89/">https://blog.mchook.cn/2021/07/22/icarus%E4%B8%BB%E9%A2%98%E8%87%AA%E5%AE%9A%E4%B9%89/</a><br><a href="https://blog.pk5ls20.com/posts/111d57cd/#span-%E8%83%8C%E6%99%AF%E5%9B%BE%E5%85%A8%E5%B1%8F%E5%8C%96-%E6%AF%9B%E7%8E%BB%E7%92%83%E6%95%88%E6%9E%9C-span">https://blog.pk5ls20.com/posts/111d57cd/#span-%E8%83%8C%E6%99%AF%E5%9B%BE%E5%85%A8%E5%B1%8F%E5%8C%96-%E6%AF%9B%E7%8E%BB%E7%92%83%E6%95%88%E6%9E%9C-span</a></p><p>我使用的布局：.is-3-colum</p><p>可以在Markdown文件中使用下面的语法来折叠单独的代码块：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock &quot;可选文件名&quot; lang:代码语言 &gt;folded %&#125;</span><br><span class="line">...代码块内容...</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -388,6 +388,8 @@
 &lt;/blockquote&gt;</summary>
     
     
+    
+    <category term="博客编写记录" scheme="http://blog.212676.xyz/categories/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E8%AE%B0%E5%BD%95/"/>
     
     
     <category term="Icarus" scheme="http://blog.212676.xyz/tags/Icarus/"/>
