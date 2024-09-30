@@ -6,7 +6,7 @@
   <link href="http://blog.212676.xyz/atom.xml" rel="self"/>
   
   <link href="http://blog.212676.xyz/"/>
-  <updated>2024-09-27T10:36:42.203Z</updated>
+  <updated>2024-09-30T05:49:14.450Z</updated>
   <id>http://blog.212676.xyz/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小米13装机指南</title>
+    <link href="http://blog.212676.xyz/2024/09/30/%E5%B0%8F%E7%B1%B313%E8%A3%85%E6%9C%BA%E6%8C%87%E5%8D%97/"/>
+    <id>http://blog.212676.xyz/2024/09/30/%E5%B0%8F%E7%B1%B313%E8%A3%85%E6%9C%BA%E6%8C%87%E5%8D%97/</id>
+    <published>2024-09-30T04:54:48.000Z</published>
+    <updated>2024-09-30T05:49:14.450Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>记录小米13在24&#x2F;09&#x2F;30重装</p></blockquote><span id="more"></span><h1 id="刷入官方包"><a href="#刷入官方包" class="headerlink" title="刷入官方包"></a>刷入官方包</h1><h1 id="刷入twrp"><a href="#刷入twrp" class="headerlink" title="刷入twrp"></a>刷入twrp</h1><h1 id="刷magisk以及安装模块"><a href="#刷magisk以及安装模块" class="headerlink" title="刷magisk以及安装模块"></a>刷magisk以及安装模块</h1><h1 id="sui配置"><a href="#sui配置" class="headerlink" title="sui配置"></a>sui配置</h1><h1 id="lsposed配置"><a href="#lsposed配置" class="headerlink" title="lsposed配置"></a>lsposed配置</h1><h1 id="基本软件"><a href="#基本软件" class="headerlink" title="基本软件"></a>基本软件</h1><h2 id="miplayer"><a href="#miplayer" class="headerlink" title="miplayer"></a>miplayer</h2><p>作为相册内嵌播放工具，仅保留基本播放功能去除其他冗余功能：</p><ol><li>在thanox中找到Mi video -&gt; 活动管理 -&gt; 右上三个点:全不 -&gt; 搜索<code>player</code> 将<code>VideoPlusPlayerActivity</code>以及 <code>GalleryPlayerActivity</code>打开即可</li><li>系统设置中禁止其联网</li><li>设置智能冻结+活检解冻<br>这下在相册中可以直接播放视频了</li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;记录小米13在24&amp;#x2F;09&amp;#x2F;30重装&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="装机指南" scheme="http://blog.212676.xyz/categories/%E8%A3%85%E6%9C%BA%E6%8C%87%E5%8D%97/"/>
+    
+    
+    <category term="装机指南" scheme="http://blog.212676.xyz/tags/%E8%A3%85%E6%9C%BA%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="小米13" scheme="http://blog.212676.xyz/tags/%E5%B0%8F%E7%B1%B313/"/>
+    
+  </entry>
   
   <entry>
     <title>博客编写技巧</title>
@@ -451,27 +476,6 @@
     <category term="blog" scheme="http://blog.212676.xyz/tags/blog/"/>
     
     <category term="markdown" scheme="http://blog.212676.xyz/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows 万能下载器 Aira2 懒人配置：</title>
-    <link href="http://blog.212676.xyz/2024/03/04/Aira2%20%E6%87%92%E4%BA%BA%E9%85%8D%E7%BD%AE/"/>
-    <id>http://blog.212676.xyz/2024/03/04/Aira2%20%E6%87%92%E4%BA%BA%E9%85%8D%E7%BD%AE/</id>
-    <published>2024-03-04T19:39:12.000Z</published>
-    <updated>2024-06-26T04:57:15.806Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>Aria2 是一个命令行全功能下载器，同时支持磁力下载，没有原生界面但是可以使用aira2c以及airaNG的web界面</p></blockquote><span id="more"></span><h1 id="为什么选择-Aria2？"><a href="#为什么选择-Aria2？" class="headerlink" title="为什么选择 Aria2？"></a>为什么选择 Aria2？</h1><p>  Aria2 下载功能比较全面，支持 BT 和磁力链接，性能也相当不错，速度不比迅雷慢。</p><p>虽然没有原生应用界面，配置也比较麻烦，但这些可以通过懒人包轻松解决。</p><h1 id="最快速的懒人配置："><a href="#最快速的懒人配置：" class="headerlink" title="最快速的懒人配置："></a>最快速的懒人配置：</h1><ol><li>下载懒人包： <a href="https://link.zhihu.com/?target=https://www.seoipo.com/software/Aria2/">LINK</a></li><li>将懒人包解压到 想要的文件夹，根据路径配置aria2.conf</li><li>官网下载 Aria2 程序<a href="https://github.com/aria2/aria2/releases">LINK</a>，然后解压到快速设置包的存放文件夹中，整体替代其中的 aria2相关程序和文件。</li><li>点击 <code>Aria2c启动器.exe</code>or<code>AriaNg启动器.exe</code>即可开始下载。两者都仅为前端界面，使用文件中的aria2.exe服务，可同时启动。包内均为开源绿色软件，不涉及任何隐私和安装，AutoHotkey 插件容易被误报。</li></ol><p>Aria2c webui：<code>https://aria2c.com/</code></p><p>AriaNg webui:<code>file:///D:/Program/aria2/AriaNg/index.html#!/downloading</code></p><h1 id="接管浏览器下载"><a href="#接管浏览器下载" class="headerlink" title="接管浏览器下载"></a>接管浏览器下载</h1><p>如果想用 Aria2 接管浏览器的下载管理，需安装插件&#x2F;扩展。</p><h2 id="Chrome："><a href="#Chrome：" class="headerlink" title="Chrome："></a>Chrome：</h2><p>安装 添加到 aria2 扩展。下载包可以用 国内搬运地址，或是懒人包内置文件。<br>如果浏览器无法直接安装 .crx 格式的扩展，可以将文件解压到新文件夹「xxx」，然后在浏览器的地址栏输入 chrome:&#x2F;&#x2F;extensions&#x2F; 开启开发者模式，点击加载已解压的扩展程序，选中刚才解压的文件夹「xxx」。</p><h2 id="Firefox："><a href="#Firefox：" class="headerlink" title="Firefox："></a>Firefox：</h2><p>安装 Aria2 Download Manager Integration 扩展，可参考下方的 Chrome 扩展设置进行配置。</p><p>安装完「添加到 aria2」扩展后，右键扩展图标，点击「选项」&gt;「设置」，设置如下：</p><p>最小监视：10 M，低于该容量将由浏览器下载。如果 Aria2 要接手所有下载，可以将最小监视设为 0.001。<br>JSON-RPC 链接：<a href="http://localhost:6800/jsonrpc%E3%80%82">http://localhost:6800/jsonrpc。</a><br>注意：「添加到 aria2」图标显示的 en 表示处于开启状态，dis 表示处于关闭状态，点击图标可以切换使用状态。</p>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Aria2 是一个命令行全功能下载器，同时支持磁力下载，没有原生界面但是可以使用aira2c以及airaNG的web界面&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    
-    <category term="aira2" scheme="http://blog.212676.xyz/tags/aira2/"/>
     
   </entry>
   
