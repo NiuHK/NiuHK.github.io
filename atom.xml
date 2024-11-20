@@ -6,7 +6,7 @@
   <link href="http://blog.212676.xyz/atom.xml" rel="self"/>
   
   <link href="http://blog.212676.xyz/"/>
-  <updated>2024-10-09T06:07:16.690Z</updated>
+  <updated>2024-11-20T02:56:47.518Z</updated>
   <id>http://blog.212676.xyz/</id>
   
   <author>
@@ -15,6 +15,45 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>tmp1</title>
+    <link href="http://blog.212676.xyz/2024/11/20/tmp1/"/>
+    <id>http://blog.212676.xyz/2024/11/20/tmp1/</id>
+    <published>2024-11-20T02:56:47.000Z</published>
+    <updated>2024-11-20T02:56:47.518Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote></blockquote><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>计算机网络</title>
+    <link href="http://blog.212676.xyz/2024/10/23/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <id>http://blog.212676.xyz/2024/10/23/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</id>
+    <published>2024-10-23T04:17:53.000Z</published>
+    <updated>2024-10-23T07:52:51.015Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>期中复习总结</p></blockquote><span id="more"></span><h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><h2 id="计算机网络在信息时代中的运用"><a href="#计算机网络在信息时代中的运用" class="headerlink" title="计算机网络在信息时代中的运用"></a>计算机网络在信息时代中的运用</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;期中复习总结&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="计算机网络" scheme="http://blog.212676.xyz/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>python学习记录</title>
@@ -418,62 +457,6 @@
     <category term="icarus" scheme="http://blog.212676.xyz/tags/icarus/"/>
     
     <category term="hexo" scheme="http://blog.212676.xyz/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用github codespace + github page + hexo 无服务器发布运行个人博客</title>
-    <link href="http://blog.212676.xyz/2024/03/09/%E4%BD%BF%E7%94%A8github-codespace-github-page-hexo-%E7%BA%BF%E4%B8%8A%E7%BC%96%E8%BE%91%E5%8F%91%E5%B8%83%E8%BF%90%E8%A1%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://blog.212676.xyz/2024/03/09/%E4%BD%BF%E7%94%A8github-codespace-github-page-hexo-%E7%BA%BF%E4%B8%8A%E7%BC%96%E8%BE%91%E5%8F%91%E5%B8%83%E8%BF%90%E8%A1%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
-    <published>2024-03-09T03:14:43.000Z</published>
-    <updated>2024-09-28T09:10:33.845Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>hexo是一个可以github page 托管的静态页面博客框架，需要node.js进行编译发布，鉴于windows配置node.js的不变性，使用github codespace托管运行环境以及博客源码，进行无服务器博客运营。</p></blockquote><span id="more"></span><p>icarus 主题 整体颜色改变：<br>&#x2F;node_modules&#x2F;hexo-theme-icarus&#x2F;include&#x2F;style&#x2F;base.styl<br>l15 $primary ?&#x3D; hsl(30, 100%,  50%)</p><p><a href="http://zhaommmmomo.cn/2021/09/14/Icarus%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/">更改两栏布局下文章宽度</a></p><p><a href="https://hujiahao6.gitee.io/2020/04/02/hexo%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/">部分更改</a></p><p>调整背景透明度<br>themes\icarus\source\js\animation.js<br>L44</p><p><a href="https://blog.mchook.cn/2021/07/22/icarus%E4%B8%BB%E9%A2%98%E8%87%AA%E5%AE%9A%E4%B9%89/">https://blog.mchook.cn/2021/07/22/icarus%E4%B8%BB%E9%A2%98%E8%87%AA%E5%AE%9A%E4%B9%89/</a><br><a href="https://blog.pk5ls20.com/posts/111d57cd/#span-%E8%83%8C%E6%99%AF%E5%9B%BE%E5%85%A8%E5%B1%8F%E5%8C%96-%E6%AF%9B%E7%8E%BB%E7%92%83%E6%95%88%E6%9E%9C-span">https://blog.pk5ls20.com/posts/111d57cd/#span-%E8%83%8C%E6%99%AF%E5%9B%BE%E5%85%A8%E5%B1%8F%E5%8C%96-%E6%AF%9B%E7%8E%BB%E7%92%83%E6%95%88%E6%9E%9C-span</a></p><p>我使用的布局：.is-3-colum</p><p>可以在Markdown文件中使用下面的语法来折叠单独的代码块：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock &quot;可选文件名&quot; lang:代码语言 &gt;folded %&#125;</span><br><span class="line">...代码块内容...</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;hexo是一个可以github page 托管的静态页面博客框架，需要node.js进行编译发布，鉴于windows配置node.js的不变性，使用github codespace托管运行环境以及博客源码，进行无服务器博客运营。&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="博客编写记录" scheme="http://blog.212676.xyz/categories/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E8%AE%B0%E5%BD%95/"/>
-    
-    
-    <category term="hexo" scheme="http://blog.212676.xyz/tags/hexo/"/>
-    
-    <category term="Icarus" scheme="http://blog.212676.xyz/tags/Icarus/"/>
-    
-    <category term="blog" scheme="http://blog.212676.xyz/tags/blog/"/>
-    
-    <category term="codespace" scheme="http://blog.212676.xyz/tags/codespace/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用giscus为blog添加评论系统</title>
-    <link href="http://blog.212676.xyz/2024/03/08/%E4%BD%BF%E7%94%A8giscus%E4%B8%BAblog%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/"/>
-    <id>http://blog.212676.xyz/2024/03/08/%E4%BD%BF%E7%94%A8giscus%E4%B8%BAblog%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</id>
-    <published>2024-03-08T09:26:42.000Z</published>
-    <updated>2024-09-27T09:34:50.360Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>giscus指一个非常好用的由GitHub讨论支持的评论系统，它可以让你把仓库中的讨论整合到你的博客中。</p></blockquote><span id="more"></span><h2 id="如何使用-GitHub-讨论作为聊天系统"><a href="#如何使用-GitHub-讨论作为聊天系统" class="headerlink" title="如何使用 GitHub 讨论作为聊天系统"></a>如何使用 GitHub 讨论作为聊天系统</h2><p>为了将GitHub讨论整合到你的博客，我们将使用 giscus。<br><img src="https://blog.212676.xyz/Picstorage/imgs/03e29360d5cc429ca6d7d4062f2c5f83.png" alt="img"><br>giscus是一个由GitHub讨论支持的评论系统。它可以让你把仓库中的讨论整合到你的博客中。</p><p>你的读者可以在你的博客上留下评论，这些评论会同时出现在你的博客和你的代码库的讨论页面上。</p><h3 id="使用讨论区作为你的博客聊天系统的优势"><a href="#使用讨论区作为你的博客聊天系统的优势" class="headerlink" title="使用讨论区作为你的博客聊天系统的优势"></a>使用讨论区作为你的博客聊天系统的优势</h3><ul><li>它是完全免费的</li><li>没有广告或跟踪</li><li>它超级强大</li><li>你对评论有完全的控制权和完全的修改权。</li><li>有很多主题</li><li>它是相当可自定义的</li><li>你可以在你自己的服务器上自行托管</li></ul><p>请记住，此工具主要适用于开发者博客，因为大多数开发人员使用 GitHub。</p><h3 id="如何在你的博客中整合giscus"><a href="#如何在你的博客中整合giscus" class="headerlink" title="如何在你的博客中整合giscus"></a>如何在你的博客中整合giscus</h3><h4 id="先决条件"><a href="#先决条件" class="headerlink" title="先决条件"></a>先决条件</h4><ul><li>一个博客（你必须能够获得源代码）</li><li>一个 GitHub 帐户</li><li>你选择的代码库必须是公开的</li></ul><p>首先，你需要为你的代码库启用讨论功能。</p><p>转到代码库 <code>Settings</code>-&gt; 在 <code>Features</code>部分下 -&gt; 勾选 <code>Discussions</code>框。<br><img src="https://blog.212676.xyz/Picstorage/imgs/8b8814e3fa45476fb4d6568951fbdc40.png" alt="img"><br>接下来，在你的代码库中安装giscus应用程序。<br>转到 <a href="https://github.com/apps/giscus">giscus主页</a>，按照提示操作，并仅授予对选定代码库的访问权限。<img src="https://blog.212676.xyz/Picstorage/imgs/f15fd586e4cd4f4b82dc7db826d12a48.png" alt="img"><br>现在是重要的部分：我们需要配置giscus小部件。</p><p>首先，进入giscus主页，滚动到 <code>Configuration</code>部分。</p><p>选择您的小部件语言，这是您想要显示小部件的语言。<br><img src="https://blog.212676.xyz/Picstorage/imgs/3b9ff0ea2bef46558b9d364bb0642af5.png" alt="img"><br>然后输入你的代码库名称和你的用户名，如用 <code>username/reponame</code>。<img src="https://blog.212676.xyz/Picstorage/imgs/4d4469acb1634b51a6b4633ec5454206.png"><br>对于页面↔️讨论映射，我建议选择 “讨论标题包含页面 <code>URL</code>”。但根据你的需要，选择最适合你的那一个。<br><img src="https://blog.212676.xyz/Picstorage/imgs/cc13493061bd436b94e79b63e4279b6a.png"><br>接下来，在你的GitHub 代码库上的讨论页面创建一个类别——比如 “Comments（评论）”——或者选择现有的类别。</p><div style="display: flex; justify-content: left; ">    <img style="max-height: 300px;  width: auto; object-fit: contain; margin-right: 20px;" src="https://blog.212676.xyz/Picstorage/imgs/92d114d08dfb4e9b9594b17bb95d9702.png" alt=""></div><p><img src="https://blog.212676.xyz/Picstorage/imgs/8797a751ea66497da47e68e1260c4b1a.png">然后根据需要启用可选功能。</p><p>接下来，选择主题。不要担心，你可以通过编程来切换不同的主题。</p><p>最后，复制并粘贴生成的代码。</p><p>Giscus将根据你的设置生成一个脚本标签，你可以将其粘贴到你的代码中。</p>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;giscus指一个非常好用的由GitHub讨论支持的评论系统，它可以让你把仓库中的讨论整合到你的博客中。&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="博客编写记录" scheme="http://blog.212676.xyz/categories/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E8%AE%B0%E5%BD%95/"/>
-    
-    
-    <category term="hexo" scheme="http://blog.212676.xyz/tags/hexo/"/>
-    
-    <category term="Icarus" scheme="http://blog.212676.xyz/tags/Icarus/"/>
-    
-    <category term="blog" scheme="http://blog.212676.xyz/tags/blog/"/>
     
   </entry>
   
